@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  movieName: MyString
+  director: MyString
+  releaseDate: 2016-02-02
+  sinopse: MyText
+  category: MyString
+
+two:
+  movieName: MyString
+  director: MyString
+  releaseDate: 2016-02-02
+  sinopse: MyText
+  category: MyString

@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Moviename:</strong>
+  <%= @rent.movieName %>
+</p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @rent.userName %>
+</p>
+
+<p>
+  <strong>Daterent:</strong>
+  <%= @rent.dateRent %>
+</p>
+
+<p>
+  <strong>Datetoreturn:</strong>
+  <%= @rent.dateToReturn %>
+</p>
+
+<p>
+  <strong>Datereturned:</strong>
+  <%= @rent.dateReturned %>
+</p>
+
+<p>
+  <strong>Returned:</strong>
+  <%= @rent.returned %>
+</p>
+
+<%= link_to 'Edit', edit_rent_path(@rent) %> |
+<%= link_to 'Back', rents_path %>

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  movieName: MyString
+  userName: MyString
+  dateRent: 2016-02-02
+  dateToReturn: 2016-02-02
+  dateReturned: 2016-02-02
+  returned: false
+
+two:
+  movieName: MyString
+  userName: MyString
+  dateRent: 2016-02-02
+  dateToReturn: 2016-02-02
+  dateReturned: 2016-02-02
+  returned: false

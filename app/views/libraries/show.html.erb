@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Moviename:</strong>
+  <%= @library.movieName %>
+</p>
+
+<p>
+  <strong>Director:</strong>
+  <%= @library.director %>
+</p>
+
+<p>
+  <strong>Releasedate:</strong>
+  <%= @library.releaseDate %>
+</p>
+
+<p>
+  <strong>Sinopse:</strong>
+  <%= @library.sinopse %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @library.category %>
+</p>
+
+<%= link_to 'Edit', edit_library_path(@library) %> |
+<%= link_to 'Back', libraries_path %>
